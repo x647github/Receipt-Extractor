@@ -1,0 +1,9 @@
+openai>=1.40
+pydantic>=2
+pdfplumber
+pandas
+openpyxl
+streamlit
+reportlab     # only used by make_samples.py to draw the fake receipts
+pytest        # for running the tests
+pytesseract   # optional: only used for images in offline mode (also needs Tesseract installed)
